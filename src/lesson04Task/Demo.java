@@ -26,6 +26,3 @@ public class Demo {
         System.out.println("Стоимость автомобиля с заменёнными деталями " + Util.carPrice(car2));
     }
 }
-
-
-
