@@ -35,4 +35,3 @@ public class lesson02Task16 {
         unique_array(new int[] {6, 7, 8, 7, 8, 9});
     }
 }
-
