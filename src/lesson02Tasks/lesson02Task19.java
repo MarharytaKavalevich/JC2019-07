@@ -28,3 +28,4 @@ public class lesson02Task19 {
                 array2[c][d] = in.nextInt();
     }
 }
+
