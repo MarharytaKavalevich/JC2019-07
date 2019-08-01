@@ -8,6 +8,8 @@ public class Car {
     private Wheel wheel;
     private Body body;
     private Chassis chassis;
+    private static String carFirm = "Mercedes";
+    private static String carModel = "CLS";
 
     public Car() {
     }
@@ -58,6 +60,22 @@ public class Car {
 
     public void setChassis(Chassis chassis) {
         this.chassis = chassis;
+    }
+    
+    public static String getCarFirm() {
+        return carFirm;
+    }
+
+    public static void setCarFirm(String carFirm) {
+        Car.carFirm = carFirm;
+    }
+
+    public static String getCarModel() {
+        return carModel;
+    }
+
+    public static void setCarModel(String carModel) {
+        Car.carModel = carModel;
     }
 
     @Override
