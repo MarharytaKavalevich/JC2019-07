@@ -20,12 +20,10 @@ public class Demo {
         Car car1 = new Car(door1, engine1, wheel1, body1, chassis1);
         Car car2 = new Car(door2, engine2, wheel2, body2, chassis2);
 
-        Util util = new Util();
-
-        System.out.println("Стоимость автомобиля " + util.carPrice(car1));
-        System.out.println("Название фирмы производителя " + util.carFirm);
-        System.out.println("Название модели " + util.carModel);
-        System.out.println("Стоимость автомобиля с заменёнными деталями " + util.carPrice(car2));
+        System.out.println("Стоимость автомобиля " + Util.carPrice(car1));
+        System.out.println("Название фирмы производителя " + Car.getCarFirm());
+        System.out.println("Название модели " + Car.getCarModel());
+        System.out.println("Стоимость автомобиля с заменёнными деталями " + Util.carPrice(car2));
     }
 }
 
