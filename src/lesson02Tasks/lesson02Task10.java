@@ -36,4 +36,3 @@ public class lesson02Task10 {
         System.out.println(" Minimum value of an array = " + min);
     }
 }
-

@@ -3,12 +3,15 @@ package lesson04Task;
 import java.util.Objects;
 
 public class Car {
+    private static String CAR_FIRM = "Mercedes";
+    private static String CAR_MODEL = "CLS";
+    
     private Door door;
     private Engine engine;
     private Wheel wheel;
     private Body body;
     private Chassis chassis;
-
+    
     public Car() {
     }
 
@@ -34,7 +37,7 @@ public class Car {
 
     public void setEngine(Engine engine) {
         this.engine = engine;
-    }
+    }  
 
     public Wheel getWheel() {
         return wheel;
@@ -58,6 +61,22 @@ public class Car {
 
     public void setChassis(Chassis chassis) {
         this.chassis = chassis;
+    }
+    
+    public static String getCarFirm() {
+        return carFirm;
+    }
+
+    public static void setCarFirm(String carFirm) {
+        Car.carFirm = carFirm;
+    }
+
+    public static String getCarModel() {
+        return carModel;
+    }
+
+    public static void setCarModel(String carModel) {
+        Car.carModel = carModel;
     }
 
     @Override
