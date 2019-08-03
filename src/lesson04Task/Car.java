@@ -3,14 +3,15 @@ package lesson04Task;
 import java.util.Objects;
 
 public class Car {
+    private static String CAR_FIRM = "Mercedes";
+    private static String CAR_MODEL = "CLS";
+    
     private Door door;
     private Engine engine;
     private Wheel wheel;
     private Body body;
     private Chassis chassis;
-    private static String carFirm = "Mercedes";
-    private static String carModel = "CLS";
-
+    
     public Car() {
     }
 
