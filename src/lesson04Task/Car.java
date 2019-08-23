@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Car {
     private static String CAR_FIRM = "Mercedes";
     private static String CAR_MODEL = "CLS";
-    
+
     private Door door;
     private Engine engine;
     private Wheel wheel;
@@ -62,21 +62,21 @@ public class Car {
     public void setChassis(Chassis chassis) {
         this.chassis = chassis;
     }
-    
+
     public static String getCarFirm() {
-        return carFirm;
+        return CAR_FIRM;
     }
 
     public static void setCarFirm(String carFirm) {
-        Car.carFirm = carFirm;
+        CAR_FIRM = carFirm;
     }
 
     public static String getCarModel() {
-        return carModel;
+        return CAR_MODEL;
     }
 
     public static void setCarModel(String carModel) {
-        Car.carModel = carModel;
+        CAR_MODEL = carModel;
     }
 
     @Override

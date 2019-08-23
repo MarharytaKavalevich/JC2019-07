@@ -20,9 +20,9 @@ public class Demo {
         Car car1 = new Car(door1, engine1, wheel1, body1, chassis1);
         Car car2 = new Car(door2, engine2, wheel2, body2, chassis2);
 
-        System.out.println("Car price " + CarUtil.carPrice(car1));
+        System.out.println("Car price " + CarUtil.calculateCarPrice(car1));
         System.out.println("Car firm " + Car.getCarFirm());
         System.out.println("Car model " + Car.getCarModel());
-        System.out.println("Car price with replaced parts " + CarUtil.carPrice(car2));
+        System.out.println("Car price with replaced parts " + CarUtil.calculateCarPrice(car2));
     }
 }
